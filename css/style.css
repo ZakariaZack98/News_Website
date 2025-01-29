@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.logo {
+  width: 220px;
+  height: 140px;
+}
+
+.navLinks_item {
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.navLinks_item:hover {
+  scale: 1.2;
+}
+
+.searchInp {
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+  outline: 2px solid blue;
+}
+
+.feedHeading {
+  margin-top: 90px;
+  font-size: 60px;
+  border-bottom: 4px solid blue;
+  padding-bottom: 10px;
+}
+
+.authorSec {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
